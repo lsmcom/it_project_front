@@ -1,0 +1,28 @@
+.footer-line{
+    border: 1px solid #438EB7;
+}
+
+.footer{
+    width: 920px;
+    height: 15vh;
+    margin: 0 auto;
+}
+
+.footer-title{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.footer-nav1{
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    gap: 20px;
+}
+
+.footer-nav2{
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    gap: 20px;
+}

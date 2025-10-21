@@ -1,0 +1,78 @@
+/* 로그인 컨테이너 */
+.login {
+  width: 460px;
+  margin: 100px auto 0;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login .form-group {
+  margin-bottom: 15px;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+.login input:focus {
+  border-color: #438EB7;
+  outline: none;
+}
+
+.login .error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.login .login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #438EB7;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login .login-btn:hover {
+  background-color: #357ca5;
+}
+
+/* 하단 링크 스타일 */
+.login-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-links span {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.login-links span:hover {
+  color: #438EB7;
+}

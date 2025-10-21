@@ -1,0 +1,138 @@
+/* 전체 컨테이너 */
+.join {
+  width: 460px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+/* 제목 영역 */
+.join h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* 폼 그룹 영역 */
+.join .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/* 라벨 영역 */
+.join label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+/* 인풋 필드 영역 */
+.join input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* 인풋 포커스 효과 */
+.join input:focus {
+  border-color: #438EB7;
+  box-shadow: 0 0 3px rgba(67, 142, 183, 0.5);
+  outline: none;
+}
+
+/* 아이디 입력 행 */
+.join .id-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 아이디 입력 행 input */
+.join .id-row input {
+  flex: 1;
+  min-width: 0;
+}
+
+/* 아이디 중복확인 버튼 */
+.join .id-check-btn {
+  flex-shrink: 0;
+  background-color: #438EB7;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+/* 아이디 중복확인 버튼 hover 효과 */
+.join .id-check-btn:hover {
+  background-color: #367496;
+}
+
+
+/* 주소 입력 행 */
+.join .address-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 주소 입력 필드 */
+.join .address-row input {
+  flex: 1;
+  min-width: 0;
+}
+
+/* 주소찾기 버튼 */
+.join .address-btn {
+  flex-shrink: 0;
+  background-color: #438EB7;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+/* 주소찾기 버튼 hover 효과 */
+.join .address-btn:hover {
+  background-color: #367496;
+}
+
+/* 에러 메시지 */
+.join .error {
+  color: #ff4d4f;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* 제출 버튼 */
+.join .submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #438EB7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+/* 제출 버튼 hover 효과 */
+.join .submit-btn:hover {
+  background-color: #367496;
+}

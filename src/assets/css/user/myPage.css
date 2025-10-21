@@ -1,0 +1,41 @@
+.myPage{
+    width: 920px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.user-info-name{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.user-info-buy{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-navigate-box{
+    margin-top: 30px;
+    display: flex;
+    cursor: pointer;
+}
+
+.user-navigate-box:hover{
+    color: #438EB7;
+}
+
+.user-navigate-box:last-child{
+    margin-bottom: 40px;
+}
+
+.user-navigate-title{
+    width: 900px;
+    font-size: 20px;
+}
+
+.user-navigate-icon{
+    width: 18px;
+    height: 18px;
+}

@@ -1,0 +1,125 @@
+.main{
+    width: 920px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.yesterday-best{
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+}
+
+.yes-title-img{
+    height: 30px;
+}
+
+.yesterday-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.best-book-list{
+    display: flex;
+    height: 310px;
+}
+
+.flex-list{
+    width: 300px;
+    height: 100%;
+}
+
+.top-book{
+    display: flex;
+    height: 130px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.book-img{
+    width: 90px;
+    height: 100px;
+    background-color: #ccc;
+}
+
+.book-title{
+    margin-top: 35px;
+    font-size: 18px;
+    margin-left: 8px;
+    text-align: center;
+    white-space: normal;
+}
+
+.top-book:hover .book-title{
+    color: #438EB7;
+}
+
+.grid-list{
+    width: 600px;
+    height: 100%;
+    margin-left: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(4, 1fr);
+    cursor: pointer;
+}
+
+.grid-title{
+    font-size: 18px;
+    width: 280px;
+    height: 48px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.grid-title:hover{
+    color: #438EB7;
+}
+
+.sale-best{
+    width: 100%;
+    height: 100%;
+    margin: 40px 0;
+}
+
+.sale-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.sale-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+
+.sale-list{
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sale-list:hover .sale-title{
+    color: #438EB7;
+}
+
+
+.sale-img{
+    width: 200px;
+    height: 240px;
+    background-color: #ccc;
+}
+
+.sale-title{
+    width: 200px;
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.sale-price{
+    margin-top: 12px;
+    font-size: 20px;
+}

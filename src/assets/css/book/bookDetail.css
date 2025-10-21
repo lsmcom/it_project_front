@@ -1,0 +1,158 @@
+.book-detail{
+    width: 920px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.book-detail-title{
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.book-detail-info{
+    display: flex;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    gap: 10px;
+}
+
+.book-detail-writer{
+    font-size: 20px;
+}
+
+.book-detail-create{
+    font-size: 20px;
+}
+
+.book-buy-box{
+    margin-top: 20px;
+    display: flex;
+}
+
+.book-detail-img{
+    width: 300px;
+    height: 360px;
+    background-color: #ccc;
+}
+
+.book-buy-group{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.book-buy-info{
+    display: flex;
+    gap: 20px;
+}
+
+.book-buy-title{
+    width: 150px;
+    font-size: 20px;
+}
+
+.book-buy-content{
+    font-size: 18px;
+}
+
+.book-buy-count{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+}
+
+.book-buy-count:focus{
+    border-color: #438EB7;
+}
+
+.buy-btn-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-shop{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: bisque;
+}
+
+.btn-buy{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: rgb(255, 72, 72);
+}
+
+.btn-shop:hover{
+    background-color: rgb(255, 220, 178);
+}
+
+.btn-buy:hover{
+    background-color: rgb(255, 55, 55);
+}
+
+.book-detail-cate-box{
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.book-detail-cate-name{
+    font-size: 22px;
+}
+
+.book-detail-cate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-detail-cate-title{
+    font-size: 20px;
+}
+
+.book-detail-cate-content{
+    display: flex;
+    gap: 10px;
+}
+
+.book-detail-cate-content span{
+    font-size: 18px;
+}
+
+.cate-right-icon{
+    width: 14px;
+    height: 14px;
+}
+
+.book-detail-contents{
+    width: 100%;
+    height: 70px;
+    margin: 40px 0;
+    display: flex;
+    gap: 40px;
+}
+
+.book-detail-input-content{
+    width: 400px;
+    height: 100%;
+}
+
+.book-content-text{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}

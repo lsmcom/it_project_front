@@ -1,0 +1,102 @@
+.admin-book-manage {
+  width: 920px;
+  margin: 40px auto;
+}
+
+.admin-book-manage h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.book-form {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #fafafa;
+  margin-bottom: 40px;
+}
+
+.book-form input,
+.book-form textarea,
+.book-form select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.book-form .form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.file-preview {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.preview-img {
+  width: 100px;
+  height: 130px;
+  border-radius: 4px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #438EB7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #2f6c90;
+}
+
+/* 목록 */
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.book-item {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: white;
+  text-align: center;
+}
+
+.book-item img {
+  width: 100px;
+  height: 130px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.book-info {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.actions button {
+  background-color: #ddd;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: #ccc;
+}

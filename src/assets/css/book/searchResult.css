@@ -1,0 +1,84 @@
+.search-result {
+    width: 920px;
+    margin: 40px auto;
+    min-height: 600px;
+}
+
+.search-result h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: left;
+}
+
+.search-result p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* 검색된 도서 목록 */
+.search-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+}
+
+/* 도서 아이템 */
+.search-item {
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* 도서 이미지 */
+.search-img {
+    width: 180px;
+    height: 220px;
+    background-color: #eaeaea;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* 도서 정보 */
+.search-info {
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.search-info h3 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.search-info p {
+    font-size: 15px;
+    color: #555;
+    margin: 2px 0;
+}
+
+/* 가격 표시 */
+.search-info p:last-child {
+    font-weight: 600;
+    color: #222;
+}
